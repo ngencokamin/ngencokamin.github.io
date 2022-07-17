@@ -2369,7 +2369,13 @@ input, select, textarea {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5rem;
 						}
+		}
 
+		@media screen and (min-width: 480px) {
+
+			.icon:nth-child(even) {
+				margin-left:1em;
+			}
 		}
 
 /* Feature Icons */
@@ -3312,6 +3318,8 @@ input, select, textarea {
 			input[type="button"],
 			.button {
 				padding: 0;
+				padding-left:0.5em;
+				padding-right: 0.5em;
 			}
 
 	}
